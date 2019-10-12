@@ -12,6 +12,15 @@ def Palindrome_Check (String):
     else:
         return False
 
+##########another method##############
+def palindrome_check2(string_input):
+    if string_input==string_input[::-1] :
+        return True
+    else:
+        return False
+
+print(palindrome_check2("abcba"))
+
 
 
 def Anagram_Check (Strings):
